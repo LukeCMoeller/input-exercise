@@ -32,7 +32,7 @@ namespace InputExample
         {
             float Negative = -100 * (float)gameTime.ElapsedGameTime.TotalSeconds;
             float Positive = 100 * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            #region Input State
+            #region Input State 
             priorKeyboardState = currentkeyboardState;
             priorMouseState = currentMouseState;
             priorPadState = currentPadState;
